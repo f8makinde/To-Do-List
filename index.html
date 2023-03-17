@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/70204d8c46.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Todo list</title>
+</head>
+<body>
+    <header class="flex flex-col space-y-6 space-x-3 items-center justify-center">
+        <h1 class="text-5xl font-bold text-center">My Todo List...</h1>
+        <div>
+            <h1 class="text-3xl font-medium py-2 text-center"><span id="date"></span></h1>
+            <div class="flex px-6 py-4 indent-3 text-lg text-black">
+                <input type="text" placeholder="Enter a task" class="py-3 indent-3 px-6" autofocus="on" id="items">
+                <button id="btn" class="py-4 text-white border border-indigo px-8">Enter</button>
+            </div>
+        </div>
+        <div id="displayText">
+            
+        </div>
+
+    </header>
+    <script src="index.js"></script>
+</body>
+</html>

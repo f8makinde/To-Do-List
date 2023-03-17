@@ -1,0 +1,10 @@
+body{
+    background: purple;
+    color: white;
+}
+.update-controller{
+    display: none
+}
+textarea{
+    resize: none
+}
